@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :trips
   resources :attractions
   namespace :api do 
     namespace :v1 do 
