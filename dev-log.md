@@ -82,3 +82,10 @@ planned or completed?
 belongs_to :user
 belongs_to :location
 has_many :attractions ???
+
+## 04.26.2021
+
+- add serializer -- fast JSON api
+- mockup user login - add current user to application controller
+- create React app using create-react-app
+- add Redux and establish first draft of store
