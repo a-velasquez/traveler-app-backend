@@ -1,12 +1,13 @@
 Rails.application.routes.draw do
 
-  resources :comments
-  resources :trips
-  resources :attractions
   namespace :api do 
     namespace :v1 do 
       resources :users
       resources :locations
+      resources :visits
+      resources :comments
+      resources :trips
+      resources :attractions
     end
   end
   
